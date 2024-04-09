@@ -1,4 +1,4 @@
-// .js SE UTULIZA PARA COMENTAR EN JS
+// Doble / SE UTULIZA PARA COMENTAR EN JS
 // EL CONSOLE.LOG ES LA FORMA DE ENVIAR MENSAJES A LA CONSOLA (CONSOLE) DEL NAVEGADOR
 console.log("hola, mundo y psicolgos");
 
@@ -15,7 +15,7 @@ console.log("hola, mundo y psicolgos");
 // CONST: es una variable que no puede cambiar en el tiempo 
 
 //TIPOS DE DATOS:
-// NOTA: el signo = no es comparativo sino que asigna valores
+// NOTA: el signo = no es comparativo sino que asigna valores y los textos siempre deben estar entre comillas.
 //NUMERICOS:
 let numero = 7; //(importante cerrar con ;)
 // CADENA DE CARACTERES:
