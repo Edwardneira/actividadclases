@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ConceptosBásico</title>
-    <script src="/conceptoBasico.js" defer></script>
+    <script src="/scripts/conceptoBasico.js" defer></script>
+    <script src="/scripts/practicaConceptos.js" defer type="text/JavaScript"></script>
+
 </head>
+
 <body>
-    <h1>Concepto Básico</h1>
-    <h2> de JavaScript</h2>
+
+    <header>
+        <h1>Concepto Básico</h1>
+        <h2> de JavaScript</h2>
+    </header>
+
+    <main>
+        <p>Implementar los conceptos de sitios web dinámicos con javaScript</p>
+        <ol>
+            <li>MANEJO DEL DOM</li>
+            <li>CONDICIONALES</li>
+            <li>CICLOS</li>
+        </ol>
+        <section>
+            <h3>Ejercicio de DOM y condicionales</h3>
+            <p> Vamos a preguntar al usuario su edad y mostrar en pantalla
+                si es mayor o menor de edad</p>
+            <div>
+                <!-- siempre que se necesite pedir un dato se debe usar la etiqueta IMPUT-->
+                <label>¿Cuál es tu edad?</label>
+                <input type="number" id="edadInput" placeholder="Ingrese aqui su edad">
+                <button>Verificar edad</button>
+
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados creado por Edward Neira</p>
+
+    </footer>
+
 
     <!-- la etiqueta SCRIPT sirve para vincular nuestro archivo de JS en el html
     1. inmediatamente antes del cierre del body
@@ -17,7 +54,8 @@
        despues de poner script se pone SRC y se vincula con el / el JS. Si se pone en el head se debe poner la palabra DEFER
 -->
 
-<script src="/conceptoBasico.js"></script>
+    <script src="/conceptoBasico.js"></script>
 
 </body>
+
 </html>
